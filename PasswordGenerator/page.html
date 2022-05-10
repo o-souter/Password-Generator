@@ -8,18 +8,17 @@
     <script src="scripts.js"></script>
     <title>Password Creator</title>
 </head>
-<body>
+<body onload="createPass()">
     <div class = "box">
         <h2>Password Creator</h2>
         <input readonly type="text" name="" id = "pass" placeholder="Password">
         <div id="buttons">
             <!--Create Button-->
             <a id="createButton" class="button" onClick="createPass()">Create</a>
-            
             <!--Copy Button-->
             <a id="copyButton" class="button" onClick="copy()">Copy to Clipboard</a>
-            
         </div>
     </div>
+    <footer>Created by Oliver</footer>
 </body>
 </html>

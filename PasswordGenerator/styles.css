@@ -3,7 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     display: flex;
-    min-height: 100vh;
+    min-height: 120vh;
 }
 
 .box {
@@ -52,9 +52,7 @@ input::placeholder{
     align-items: center;
     cursor: pointer;
     border-radius: 25px;  
-}
-#copyButton{
-    /*margin-left: 85px*/
+    margin:10px;
 }
 
 .button:hover {
@@ -63,7 +61,12 @@ input::placeholder{
 }
 
 #buttons {
-    width:410px;
     display:flex;
-    justify-content:space-between;
+    justify-content:center;
+}
+
+footer {
+    position:fixed;
+    font-family: sans-serif;
+    color:white;
 }
